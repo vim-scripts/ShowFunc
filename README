@@ -1,0 +1,15 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1588
+
+This small utility define commands to display the type/function name the cursor in. You can also jump to the closest function/type name in scope.
+
+Command:
+    SFunc -- Show type/function name
+    JFunc  -- Jump to closest type/function name in scope
+
+shortcut:
+     ,f    -- call SFunc
+     \f    -- call JFunc
+
+It doesn't relies on ctags file, but it use the syntax file in vim 7.0. It should work for C#/Java/C++, but it has best support for C#. In addition to function, it can also recognize property/event in C#.
+
+
